@@ -1,0 +1,62 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*Layout*/
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.options-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.color-choser {
+    width: 55px;
+    height: 45px;
+}
+
+.palette-option {
+    width: 320px;
+    height: 45px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.colors-bars {
+    display: flex;
+}
+
+.color-bar {
+    width: 120px;
+    height: 600px;
+}
+
+.color-bar-names {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*Buttons*/
+
+.get-scheme-button {
+    width: 130px;
+    height: 45px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background-color: white;
+}
